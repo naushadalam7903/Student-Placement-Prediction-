@@ -1,1 +1,5 @@
-https://curly-suns-train.loca.lt
+Live Website (GitHub Pages):
+https://naushadalam7903.github.io/Student-Placement-Prediction-/
+
+GitHub Repository:
+https://github.com/naushadalam7903/Student-Placement-Prediction-
