@@ -7,9 +7,6 @@ import type {
   DataExplorerData
 } from "../types";
 
-<<<<<<< HEAD
-const API_BASE = import.meta.env.VITE_API_BASE_URL || "/api";
-=======
 import fallbackAnalytics from "../data/analytics.json";
 import fallbackMetrics from "../data/metrics.json";
 import fallbackFeatures from "../data/features.json";
@@ -17,8 +14,7 @@ import fallbackDataExplorer from "../data/dataset_summary.json";
 import fallbackMetadata from "../data/metadata.json";
 
 const RAW_BASE = ((import.meta.env.VITE_API_BASE_URL as string | undefined) || "").trim().replace(/\/$/, "");
-const API_BASE = RAW_BASE ? (RAW_BASE.endsWith("/api") ? RAW_BASE : `${RAW_BASE}/api`) : "http://localhost:8000/api";
->>>>>>> ef68dbf8bab89e255536e0e7a7a5ed3dfcc9450b
+const API_BASE = RAW_BASE ? (RAW_BASE.endsWith("/api") ? RAW_BASE : `${RAW_BASE}/api`) : "/api";
 
 export async function fetchHealth(): Promise<{ status: string; model_loaded: boolean }> {
   try {
