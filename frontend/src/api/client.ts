@@ -6,8 +6,8 @@ import type {
   AnalyticsData,
   DataExplorerData
 } from "../types";
-
-const API_BASE = "http://localhost:8000/api";
+const RAW_BASE = ((import.meta.env.VITE_API_BASE_URL as string | undefined) || "").trim().replace(/\/$/, "");
+const API_BASE = RAW_BASE ? (RAW_BASE.endsWith("/api") ? RAW_BASE : `${RAW_BASE}/api`) : "http://localhost:8000/api";
 
 export async function fetchHealth(): Promise<{ status: string; model_loaded: boolean }> {
   const res = await fetch(`${API_BASE}/health`);
