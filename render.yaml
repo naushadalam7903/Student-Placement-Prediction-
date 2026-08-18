@@ -1,5 +1,6 @@
 services:
   - type: web
+<<<<<<< HEAD
     name: student-placement-prediction
     env: python
     region: oregon
@@ -9,3 +10,14 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.12.5
+=======
+    name: student-placement-api
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn backend.app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+>>>>>>> ef68dbf8bab89e255536e0e7a7a5ed3dfcc9450b

@@ -1,0 +1,165 @@
+{
+  "total_students": 100000,
+  "placement_rate": 54.46,
+  "placed_count": 54459,
+  "not_placed_count": 45541,
+  "best_model": "Random Forest",
+  "best_model_accuracy": 0.565,
+  "best_model_f1": 0.6765,
+  "branch_distribution": {
+    "CSE": 34818,
+    "IT": 19999,
+    "ECE": 14908,
+    "EEE": 10177,
+    "Mechanical": 10077,
+    "Civil": 10021
+  },
+  "tier_distribution": {
+    "Tier 2": 49955,
+    "Tier 3": 29884,
+    "Tier 1": 20161
+  },
+  "placement_by_branch": [
+    {
+      "branch": "CSE",
+      "placement_rate": 54.64,
+      "total_students": 34818,
+      "placed": 19026,
+      "not_placed": 15792
+    },
+    {
+      "branch": "Civil",
+      "placement_rate": 55.17,
+      "total_students": 10021,
+      "placed": 5529,
+      "not_placed": 4492
+    },
+    {
+      "branch": "ECE",
+      "placement_rate": 54.11,
+      "total_students": 14908,
+      "placed": 8066,
+      "not_placed": 6842
+    },
+    {
+      "branch": "EEE",
+      "placement_rate": 54.32,
+      "total_students": 10177,
+      "placed": 5528,
+      "not_placed": 4649
+    },
+    {
+      "branch": "IT",
+      "placement_rate": 54.3,
+      "total_students": 19999,
+      "placed": 10860,
+      "not_placed": 9139
+    },
+    {
+      "branch": "Mechanical",
+      "placement_rate": 54.08,
+      "total_students": 10077,
+      "placed": 5450,
+      "not_placed": 4627
+    }
+  ],
+  "placement_by_tier": [
+    {
+      "college_tier": "Tier 1",
+      "placement_rate": 54.5,
+      "total_students": 20161,
+      "placed": 10988,
+      "not_placed": 9173
+    },
+    {
+      "college_tier": "Tier 2",
+      "placement_rate": 54.28,
+      "total_students": 49955,
+      "placed": 27118,
+      "not_placed": 22837
+    },
+    {
+      "college_tier": "Tier 3",
+      "placement_rate": 54.72,
+      "total_students": 29884,
+      "placed": 16353,
+      "not_placed": 13531
+    }
+  ],
+  "cgpa_vs_placement": [
+    {
+      "cgpa_range": "<6.0",
+      "placement_rate": 53.33,
+      "count": 6779
+    },
+    {
+      "cgpa_range": "6.0-7.0",
+      "placement_rate": 53.96,
+      "count": 24448
+    },
+    {
+      "cgpa_range": "7.0-8.0",
+      "placement_rate": 54.5,
+      "count": 38069
+    },
+    {
+      "cgpa_range": "8.0-9.0",
+      "placement_rate": 54.87,
+      "count": 24171
+    },
+    {
+      "cgpa_range": "9.0-10.0",
+      "placement_rate": 55.75,
+      "count": 6533
+    }
+  ],
+  "internships_vs_placement": [
+    {
+      "internships": "0",
+      "placement_rate": 50.32,
+      "count": 22203
+    },
+    {
+      "internships": "1",
+      "placement_rate": 53.7,
+      "count": 33546
+    },
+    {
+      "internships": "2",
+      "placement_rate": 55.4,
+      "count": 25103
+    },
+    {
+      "internships": "3",
+      "placement_rate": 57.95,
+      "count": 12583
+    },
+    {
+      "internships": "4+",
+      "placement_rate": 62.04,
+      "count": 6565
+    }
+  ],
+  "coding_vs_placement": [
+    {
+      "score_range": "<40",
+      "placement_rate": 48.64,
+      "count": 2313
+    },
+    {
+      "score_range": "40-60",
+      "placement_rate": 51.43,
+      "count": 23085
+    },
+    {
+      "score_range": "60-80",
+      "placement_rate": 54.51,
+      "count": 49469
+    },
+    {
+      "score_range": "80-100",
+      "placement_rate": 57.68,
+      "count": 25133
+    }
+  ]
+}

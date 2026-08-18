@@ -5,13 +5,34 @@ __pycache__/
 *.so
 .Python
 env/
+<<<<<<< HEAD
 venv/
 ENV/
 .venv/
+=======
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+>>>>>>> ef68dbf8bab89e255536e0e7a7a5ed3dfcc9450b
 .pytest_cache/
 
 # Node
 node_modules/
+<<<<<<< HEAD
 dist/
 .DS_Store
 
@@ -25,3 +46,13 @@ dist/
 .env
 .env.local
 .env.*.local
+=======
+frontend/node_modules/
+frontend/dist/
+dist/
+.env
+.env.local
+.env.production
+.DS_Store
+Thumbs.db
+>>>>>>> ef68dbf8bab89e255536e0e7a7a5ed3dfcc9450b

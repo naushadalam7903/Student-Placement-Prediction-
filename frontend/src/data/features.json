@@ -1,0 +1,261 @@
+{
+  "model_name": "Random Forest",
+  "feature_importances": [
+    {
+      "feature": "coding_skill_score",
+      "raw_feature_name": "num__coding_skill_score",
+      "importance": 7.93
+    },
+    {
+      "feature": "mock_interview_score",
+      "raw_feature_name": "num__mock_interview_score",
+      "importance": 7.62
+    },
+    {
+      "feature": "logical_reasoning_score",
+      "raw_feature_name": "num__logical_reasoning_score",
+      "importance": 6.97
+    },
+    {
+      "feature": "aptitude_score",
+      "raw_feature_name": "num__aptitude_score",
+      "importance": 6.89
+    },
+    {
+      "feature": "communication_skill_score",
+      "raw_feature_name": "num__communication_skill_score",
+      "importance": 6.62
+    },
+    {
+      "feature": "leadership_score",
+      "raw_feature_name": "num__leadership_score",
+      "importance": 6.17
+    },
+    {
+      "feature": "extracurricular_score",
+      "raw_feature_name": "num__extracurricular_score",
+      "importance": 6.06
+    },
+    {
+      "feature": "linkedin_connections",
+      "raw_feature_name": "num__linkedin_connections",
+      "importance": 5.86
+    },
+    {
+      "feature": "cgpa",
+      "raw_feature_name": "num__cgpa",
+      "importance": 5.72
+    },
+    {
+      "feature": "attendance_percentage",
+      "raw_feature_name": "num__attendance_percentage",
+      "importance": 5.61
+    },
+    {
+      "feature": "backlogs",
+      "raw_feature_name": "num__backlogs",
+      "importance": 5.15
+    },
+    {
+      "feature": "sleep_hours",
+      "raw_feature_name": "num__sleep_hours",
+      "importance": 4.8
+    },
+    {
+      "feature": "study_hours_per_day",
+      "raw_feature_name": "num__study_hours_per_day",
+      "importance": 4.67
+    },
+    {
+      "feature": "projects_count",
+      "raw_feature_name": "num__projects_count",
+      "importance": 4.09
+    },
+    {
+      "feature": "internships_count",
+      "raw_feature_name": "num__internships_count",
+      "importance": 3.58
+    },
+    {
+      "feature": "github_repos",
+      "raw_feature_name": "num__github_repos",
+      "importance": 2.56
+    },
+    {
+      "feature": "certifications_count",
+      "raw_feature_name": "num__certifications_count",
+      "importance": 1.99
+    },
+    {
+      "feature": "age",
+      "raw_feature_name": "num__age",
+      "importance": 1.98
+    },
+    {
+      "feature": "hackathons_participated",
+      "raw_feature_name": "num__hackathons_participated",
+      "importance": 1.39
+    },
+    {
+      "feature": "gender_Male",
+      "raw_feature_name": "cat__gender_Male",
+      "importance": 0.54
+    },
+    {
+      "feature": "volunteer_experience_Yes",
+      "raw_feature_name": "cat__volunteer_experience_Yes",
+      "importance": 0.53
+    },
+    {
+      "feature": "college_tier_Tier 3",
+      "raw_feature_name": "cat__college_tier_Tier 3",
+      "importance": 0.52
+    },
+    {
+      "feature": "college_tier_Tier 2",
+      "raw_feature_name": "cat__college_tier_Tier 2",
+      "importance": 0.51
+    },
+    {
+      "feature": "branch_IT",
+      "raw_feature_name": "cat__branch_IT",
+      "importance": 0.49
+    },
+    {
+      "feature": "branch_Mechanical",
+      "raw_feature_name": "cat__branch_Mechanical",
+      "importance": 0.46
+    },
+    {
+      "feature": "branch_ECE",
+      "raw_feature_name": "cat__branch_ECE",
+      "importance": 0.45
+    },
+    {
+      "feature": "branch_EEE",
+      "raw_feature_name": "cat__branch_EEE",
+      "importance": 0.43
+    },
+    {
+      "feature": "branch_Civil",
+      "raw_feature_name": "cat__branch_Civil",
+      "importance": 0.41
+    }
+  ],
+  "correlations": [
+    {
+      "feature": "backlogs",
+      "correlation": -0.0824,
+      "abs_correlation": 0.0824,
+      "direction": "Negative"
+    },
+    {
+      "feature": "internships_count",
+      "correlation": 0.0635,
+      "abs_correlation": 0.0635,
+      "direction": "Positive"
+    },
+    {
+      "feature": "projects_count",
+      "correlation": 0.061,
+      "abs_correlation": 0.061,
+      "direction": "Positive"
+    },
+    {
+      "feature": "coding_skill_score",
+      "correlation": 0.0508,
+      "abs_correlation": 0.0508,
+      "direction": "Positive"
+    },
+    {
+      "feature": "mock_interview_score",
+      "correlation": 0.0461,
+      "abs_correlation": 0.0461,
+      "direction": "Positive"
+    },
+    {
+      "feature": "logical_reasoning_score",
+      "correlation": 0.0363,
+      "abs_correlation": 0.0363,
+      "direction": "Positive"
+    },
+    {
+      "feature": "communication_skill_score",
+      "correlation": 0.0322,
+      "abs_correlation": 0.0322,
+      "direction": "Positive"
+    },
+    {
+      "feature": "aptitude_score",
+      "correlation": 0.0317,
+      "abs_correlation": 0.0317,
+      "direction": "Positive"
+    },
+    {
+      "feature": "leadership_score",
+      "correlation": 0.0222,
+      "abs_correlation": 0.0222,
+      "direction": "Positive"
+    },
+    {
+      "feature": "extracurricular_score",
+      "correlation": 0.0201,
+      "abs_correlation": 0.0201,
+      "direction": "Positive"
+    },
+    {
+      "feature": "cgpa",
+      "correlation": 0.0121,
+      "abs_correlation": 0.0121,
+      "direction": "Positive"
+    },
+    {
+      "feature": "attendance_percentage",
+      "correlation": -0.0084,
+      "abs_correlation": 0.0084,
+      "direction": "Negative"
+    },
+    {
+      "feature": "github_repos",
+      "correlation": 0.0048,
+      "abs_correlation": 0.0048,
+      "direction": "Positive"
+    },
+    {
+      "feature": "sleep_hours",
+      "correlation": -0.0047,
+      "abs_correlation": 0.0047,
+      "direction": "Negative"
+    },
+    {
+      "feature": "certifications_count",
+      "correlation": -0.0038,
+      "abs_correlation": 0.0038,
+      "direction": "Negative"
+    },
+    {
+      "feature": "linkedin_connections",
+      "correlation": 0.0032,
+      "abs_correlation": 0.0032,
+      "direction": "Positive"
+    },
+    {
+      "feature": "study_hours_per_day",
+      "correlation": -0.0014,
+      "abs_correlation": 0.0014,
+      "direction": "Negative"
+    },
+    {
+      "feature": "hackathons_participated",
+      "correlation": 0.0012,
+      "abs_correlation": 0.0012,
+      "direction": "Positive"
+    },
+    {
+      "feature": "age",
+      "correlation": 0.0009,
+      "abs_correlation": 0.0009,
+      "direction": "Positive"
+    }
+  ]
+}

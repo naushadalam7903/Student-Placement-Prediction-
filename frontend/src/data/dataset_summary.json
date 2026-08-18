@@ -1,0 +1,302 @@
+{
+  "num_rows": 100000,
+  "num_columns": 26,
+  "column_names": [
+    "student_id",
+    "age",
+    "gender",
+    "cgpa",
+    "branch",
+    "college_tier",
+    "internships_count",
+    "projects_count",
+    "certifications_count",
+    "coding_skill_score",
+    "aptitude_score",
+    "communication_skill_score",
+    "logical_reasoning_score",
+    "hackathons_participated",
+    "github_repos",
+    "linkedin_connections",
+    "mock_interview_score",
+    "attendance_percentage",
+    "backlogs",
+    "extracurricular_score",
+    "leadership_score",
+    "volunteer_experience",
+    "sleep_hours",
+    "study_hours_per_day",
+    "placement_status",
+    "salary_package_lpa"
+  ],
+  "data_types": {
+    "student_id": "int64",
+    "age": "int64",
+    "gender": "str",
+    "cgpa": "float64",
+    "branch": "str",
+    "college_tier": "str",
+    "internships_count": "int64",
+    "projects_count": "int64",
+    "certifications_count": "int64",
+    "coding_skill_score": "float64",
+    "aptitude_score": "float64",
+    "communication_skill_score": "float64",
+    "logical_reasoning_score": "float64",
+    "hackathons_participated": "int64",
+    "github_repos": "int64",
+    "linkedin_connections": "int64",
+    "mock_interview_score": "float64",
+    "attendance_percentage": "float64",
+    "backlogs": "int64",
+    "extracurricular_score": "float64",
+    "leadership_score": "float64",
+    "volunteer_experience": "str",
+    "sleep_hours": "float64",
+    "study_hours_per_day": "float64",
+    "placement_status": "str",
+    "salary_package_lpa": "float64"
+  },
+  "missing_values": {
+    "student_id": 0,
+    "age": 0,
+    "gender": 0,
+    "cgpa": 0,
+    "branch": 0,
+    "college_tier": 0,
+    "internships_count": 0,
+    "projects_count": 0,
+    "certifications_count": 0,
+    "coding_skill_score": 0,
+    "aptitude_score": 0,
+    "communication_skill_score": 0,
+    "logical_reasoning_score": 0,
+    "hackathons_participated": 0,
+    "github_repos": 0,
+    "linkedin_connections": 0,
+    "mock_interview_score": 0,
+    "attendance_percentage": 0,
+    "backlogs": 0,
+    "extracurricular_score": 0,
+    "leadership_score": 0,
+    "volunteer_experience": 0,
+    "sleep_hours": 0,
+    "study_hours_per_day": 0,
+    "placement_status": 0,
+    "salary_package_lpa": 0
+  },
+  "total_missing": 0,
+  "duplicate_rows": 0,
+  "unique_values": {
+    "student_id": 100000,
+    "age": 7,
+    "gender": 2,
+    "cgpa": 551,
+    "branch": 6,
+    "college_tier": 3,
+    "internships_count": 9,
+    "projects_count": 14,
+    "certifications_count": 12,
+    "coding_skill_score": 97643,
+    "aptitude_score": 98859,
+    "communication_skill_score": 98872,
+    "logical_reasoning_score": 98730,
+    "hackathons_participated": 9,
+    "github_repos": 16,
+    "linkedin_connections": 950,
+    "mock_interview_score": 99352,
+    "attendance_percentage": 93397,
+    "backlogs": 7,
+    "extracurricular_score": 97660,
+    "leadership_score": 98473,
+    "volunteer_experience": 2,
+    "sleep_hours": 71,
+    "study_hours_per_day": 92,
+    "placement_status": 2,
+    "salary_package_lpa": 1047
+  },
+  "numerical_summary": {
+    "student_id": {
+      "min": 1.0,
+      "mean": 50000.5,
+      "median": 50000.5,
+      "max": 100000.0,
+      "std": 28867.65779668774
+    },
+    "age": {
+      "min": 18.0,
+      "mean": 21.00574,
+      "median": 21.0,
+      "max": 24.0,
+      "std": 1.999561710693208
+    },
+    "cgpa": {
+      "min": 4.5,
+      "mean": 7.4968902,
+      "median": 7.5,
+      "max": 10.0,
+      "std": 0.9928341182392069
+    },
+    "internships_count": {
+      "min": 0.0,
+      "mean": 1.50223,
+      "median": 1.0,
+      "max": 8.0,
+      "std": 1.225279576341825
+    },
+    "projects_count": {
+      "min": 0.0,
+      "mean": 3.00186,
+      "median": 3.0,
+      "max": 13.0,
+      "std": 1.7317639938702112
+    },
+    "certifications_count": {
+      "min": 0.0,
+      "mean": 2.00515,
+      "median": 2.0,
+      "max": 11.0,
+      "std": 1.416553403065143
+    },
+    "coding_skill_score": {
+      "min": 20.0,
+      "mean": 69.82532586301689,
+      "median": 70.00625031134328,
+      "max": 100.0,
+      "std": 14.694618022495533
+    },
+    "aptitude_score": {
+      "min": 20.0,
+      "mean": 64.98810778442892,
+      "median": 65.01139398500169,
+      "max": 100.0,
+      "std": 14.844093056880851
+    },
+    "communication_skill_score": {
+      "min": 20.0,
+      "mean": 67.96074379266682,
+      "median": 67.97322143338963,
+      "max": 100.0,
+      "std": 13.846635556954087
+    },
+    "logical_reasoning_score": {
+      "min": 20.0,
+      "mean": 65.9316956693214,
+      "median": 66.00382929476815,
+      "max": 100.0,
+      "std": 14.826789757850662
+    },
+    "hackathons_participated": {
+      "min": 0.0,
+      "mean": 1.00069,
+      "median": 1.0,
+      "max": 8.0,
+      "std": 0.9979075518778385
+    },
+    "github_repos": {
+      "min": 0.0,
+      "mean": 4.00516,
+      "median": 4.0,
+      "max": 16.0,
+      "std": 2.0048973965107804
+    },
+    "linkedin_connections": {
+      "min": 50.0,
+      "mean": 524.55911,
+      "median": 523.0,
+      "max": 999.0,
+      "std": 274.9934785411107
+    },
+    "mock_interview_score": {
+      "min": 20.0,
+      "mean": 69.98941102380448,
+      "median": 70.02666545691432,
+      "max": 100.0,
+      "std": 11.937257267118742
+    },
+    "attendance_percentage": {
+      "min": 50.0,
+      "mean": 84.73016902558447,
+      "median": 85.0188282509529,
+      "max": 100.0,
+      "std": 9.416075404293267
+    },
+    "backlogs": {
+      "min": 0.0,
+      "mean": 0.49759,
+      "median": 0.0,
+      "max": 6.0,
+      "std": 0.7084343376009572
+    },
+    "extracurricular_score": {
+      "min": 0.0,
+      "mean": 59.894048604662565,
+      "median": 60.07902095111114,
+      "max": 100.0,
+      "std": 19.549666100100133
+    },
+    "leadership_score": {
+      "min": 0.0,
+      "mean": 54.93752585918212,
+      "median": 55.07621030364352,
+      "max": 100.0,
+      "std": 19.781196937898706
+    },
+    "sleep_hours": {
+      "min": 3.0,
+      "mean": 6.983318999999999,
+      "median": 7.0,
+      "max": 10.0,
+      "std": 1.4681132782605633
+    },
+    "study_hours_per_day": {
+      "min": 0.5,
+      "mean": 3.523124,
+      "median": 3.5,
+      "max": 10.0,
+      "std": 1.4712482884745401
+    },
+    "salary_package_lpa": {
+      "min": 0.0,
+      "mean": 7.252106100000001,
+      "median": 11.1,
+      "max": 20.44,
+      "std": 6.735131954265425
+    }
+  },
+  "categorical_distributions": {
+    "gender": {
+      "Male": 60028,
+      "Female": 39972
+    },
+    "branch": {
+      "CSE": 34818,
+      "IT": 19999,
+      "ECE": 14908,
+      "EEE": 10177,
+      "Mechanical": 10077,
+      "Civil": 10021
+    },
+    "college_tier": {
+      "Tier 2": 49955,
+      "Tier 3": 29884,
+      "Tier 1": 20161
+    },
+    "volunteer_experience": {
+      "No": 59963,
+      "Yes": 40037
+    },
+    "placement_status": {
+      "Placed": 54459,
+      "Not Placed": 45541
+    }
+  },
+  "target_distribution": {
+    "Placed": 54459,
+    "Not Placed": 45541
+  },
+  "class_balance_percentage": {
+    "Placed": 54.46,
+    "Not Placed": 45.54
+  }
+}
