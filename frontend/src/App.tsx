@@ -53,9 +53,9 @@ export function App() {
         {activeTab === "explorer" && <DataExplorer />}
       </main>
 
-      <footer style={{ borderTop: "1px solid var(--border-subtle)", padding: "1.5rem", textAlign: "center", fontSize: "0.8rem", color: "var(--text-muted)", marginTop: "auto" }}>
-        <div>Student Placement Prediction & Intelligence Platform © 2026</div>
-        <div style={{ marginTop: "0.25rem" }}>
+      <footer style={{ borderTop: "1px solid var(--border-light)", background: "#FFFFFF", padding: "1.5rem", textAlign: "center", fontSize: "0.8rem", color: "var(--text-muted)", marginTop: "auto" }}>
+        <div style={{ fontWeight: 600, color: "var(--text-secondary)" }}>Student Placement Prediction & Intelligence Platform © 2026</div>
+        <div style={{ marginTop: "0.25rem", color: "var(--text-muted)", fontSize: "0.75rem" }}>
           Production Machine Learning System built with FastAPI, Scikit-learn, and React.
         </div>
       </footer>

@@ -6,6 +6,7 @@ interface MetricCardProps {
   subtext?: string;
   icon: React.ReactNode;
   accentColor?: string;
+  trend?: string;
 }
 
 export const MetricCard: React.FC<MetricCardProps> = ({
@@ -13,7 +14,8 @@ export const MetricCard: React.FC<MetricCardProps> = ({
   value,
   subtext,
   icon,
-  accentColor = "var(--accent-primary)"
+  accentColor = "var(--green-700)",
+  trend
 }) => {
   return (
     <div className="card metric-card">
@@ -26,7 +28,10 @@ export const MetricCard: React.FC<MetricCardProps> = ({
           {icon}
         </div>
       </div>
-      {subtext && <div className="metric-subtext">{subtext}</div>}
+      <div className="metric-subtext">
+        {trend && <span className="green-badge-pill">{trend}</span>}
+        <span>{subtext}</span>
+      </div>
     </div>
   );
 };
